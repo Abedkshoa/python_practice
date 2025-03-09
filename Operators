@@ -1,0 +1,18 @@
+import socket  
+
+# Define variables
+network_name = "Abed_2.4"  
+hostname = socket.gethostname()  # Automatically fetch the hostname
+
+# Concatenate network_name and hostname
+my_con = network_name + " - " + hostname
+
+# Print the variable
+print("Connection Info:", my_con)
+
+# Add an ID or any number to my_con
+connection_id = 123  
+my_con += f" (ID: {connection_id})"
+
+# Print updated my_con variable
+print("Updated Connection Info:", my_con)
