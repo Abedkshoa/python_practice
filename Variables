@@ -1,0 +1,9 @@
+# Define variables
+name = "Abed Alhadi"         
+nickname = "Abood" 
+pet_name = "sweet" 
+
+# Print the variables
+print("Name:", name)
+print("Nickname:", nickname)
+print("Pet Name:", pet_name)
