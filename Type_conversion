@@ -1,0 +1,16 @@
+# Define variables
+spouse_name = "mike"  
+spouse_age = 30  
+credit_card_number = "1234-5678-9101-1121"  
+
+# Check and print the type of spouse_name
+print("Spouse Name:", spouse_name)
+print("Type of spouse_name:", type(spouse_name))
+
+# Convert spouse_age to string
+spouse_age_str = str(spouse_age)
+
+
+# Print variables
+print("Spouse Age:", spouse_age_str)
+print("Credit Card Details:", credit_card_number)
